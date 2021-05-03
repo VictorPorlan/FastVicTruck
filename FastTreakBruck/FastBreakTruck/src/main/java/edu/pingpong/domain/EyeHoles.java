@@ -1,6 +1,8 @@
-package edu.pingpong;
+package edu.pingpong.domain;
 
-public class EyeHoles extends Cereales{
+import edu.pingpong.types.Cereales;
+
+public class EyeHoles extends Cereales {
     private final String nombre = "Eyeholes";
     private final Float pvp = 25f;
 

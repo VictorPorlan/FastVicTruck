@@ -1,4 +1,4 @@
-package edu.pingpong;
+package edu.pingpong.behaviour;
 
 public interface Item {
     public String nombre();

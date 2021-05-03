@@ -1,6 +1,8 @@
-package edu.pingpong;
+package edu.pingpong.domain;
 
-public class Plumbus extends Juguete{
+import edu.pingpong.types.Juguete;
+
+public class Plumbus extends Juguete {
     private final String nombre = "Plumbus";
     private final Float pvp = 100f;
     public Plumbus() {

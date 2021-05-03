@@ -1,6 +1,10 @@
-package edu.pingpong;
+package edu.pingpong.types;
 
-public abstract class Juguete implements Item{
+import edu.pingpong.domain.Caja;
+import edu.pingpong.behaviour.Item;
+import edu.pingpong.behaviour.Packing;
+
+public abstract class Juguete implements Item {
     @Override
     public Packing empaquetado() {
         return new Caja();

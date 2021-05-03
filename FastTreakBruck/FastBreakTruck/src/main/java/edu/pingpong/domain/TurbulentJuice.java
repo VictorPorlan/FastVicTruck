@@ -1,4 +1,6 @@
-package edu.pingpong;
+package edu.pingpong.domain;
+
+import edu.pingpong.types.Bebida;
 
 public class TurbulentJuice extends Bebida {
     private final String nombre = "TurbulentJuice";

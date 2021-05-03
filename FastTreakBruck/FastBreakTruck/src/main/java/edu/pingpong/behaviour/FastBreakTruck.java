@@ -1,4 +1,6 @@
-package edu.pingpong;
+package edu.pingpong.behaviour;
+
+import edu.pingpong.domain.*;
 
 public class FastBreakTruck{
     public FastBreakTruck() {

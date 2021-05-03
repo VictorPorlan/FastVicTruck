@@ -1,7 +1,8 @@
-package edu.pingpong;
+package edu.pingpong.domain;
+
+import edu.pingpong.behaviour.Item;
 
 import java.util.ArrayList;
-import java.util.HashMap;
 import java.util.List;
 
 public class Desayuno {
@@ -22,6 +23,7 @@ public class Desayuno {
         getLista().forEach(item -> System.out.println(item.toString()));
     }
     public float getCoste(){
+        precio = 0f;
         getLista().forEach(item -> precio += item.PVP());
         return this.precio;
         }
